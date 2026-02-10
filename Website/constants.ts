@@ -77,15 +77,15 @@ export const CASE_STUDIES: CaseStudy[] = [
     type: 'AI Chatbot',
     description: 'A 24/7 intelligent agent that handles 80% of customer inquiries instantly, escalating only complex issues to human staff.',
     benefit: 'Reduced support tickets by 75%',
-    tools: ['Voiceflow', 'OpenAI', 'Zendesk'],
+    tools: ['Voiceflow', 'ChatGPT'],
     imagePlaceholderColor: 'bg-blue-100',
   },
   {
     title: 'FitTrack Pro',
     type: 'Gym Application',
     description: 'A member-centric mobile app tracking workouts and nutrition, increasing member retention by providing personalized AI coaching.',
-    benefit: 'Increased retention by 20%',
-    tools: ['FlutterFlow', 'Supabase', 'Gemini'],
+    benefit: 'Automated Subscription Management',
+    tools: ['Bolt.new', 'Supabase'],
     imagePlaceholderColor: 'bg-emerald-100',
   }
 ];
