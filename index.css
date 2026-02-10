@@ -1,0 +1,9 @@
+/* Global styles for redberri.ai */
+
+@layer base {
+  body {
+    @apply bg-background text-text antialiased;
+  }
+}
+
+/* Custom scrollbar utilities are in index.html, but can be moved here if needed */
