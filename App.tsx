@@ -3,7 +3,6 @@ import { Navbar } from './components/Navbar';
 import { HeroTabs } from './components/HeroTabs';
 import { Button } from './components/Button';
 import { SectionBadge } from './components/SectionBadge';
-import { LogoCarousel } from './components/LogoCarousel';
 import { ContactForm } from './components/ContactForm';
 import { SERVICES, BENEFITS, PROCESS_STEPS, CASE_STUDIES } from './constants';
 import { Check, ArrowRight, Star, Cpu, Briefcase, Zap, Bot, BarChart3, TrendingUp, Smartphone, MessageSquare, Shield, Globe, Database, Search, Code2, Sparkles, Play, Phone, FileText, Settings, Rocket, Users, Mail } from 'lucide-react';
@@ -70,8 +69,6 @@ function App() {
           <HeroTabs />
         </div>
       </section>
-
-      <LogoCarousel />
 
       {/* Comparison Section */}
       <section className="py-20 bg-brand-offwhite relative">
